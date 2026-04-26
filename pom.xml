@@ -5,11 +5,13 @@
         <groupId>com.yourgroup</groupId>
         <artifactId>LeTrongDat_25021710_week9</artifactId>
         <version>1.0-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
     <artifactId>Bai03</artifactId>
     <packaging>jar</packaging>
+
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
