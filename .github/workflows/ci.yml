@@ -24,11 +24,11 @@ jobs:
 
       # Bước 3: Build và chạy test với Maven
       - name: Build with Maven
-        run: mvn -B clean verify package
+        run: mvn -B -f Bai03/pom.xml clean verify package
 
       # Bước 4: Upload artifact (.jar) sau khi build
       - name: Upload JAR artifact
         uses: actions/upload-artifact@v4
         with:
           name: bank-app-jar
-          path: target/*.jar
+          path: Bai03/target/*.jar
